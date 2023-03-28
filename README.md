@@ -1,2 +1,3 @@
 # SynPath
 CTK 460 Unity Project
+Trying to figure out GitHub... 
