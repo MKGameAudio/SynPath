@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Synpath_Wwise_230318" GUID="{31897EDB-428A-4AE5-9A88-29E1CDABC25D}" Generator="2022.1.2.8150"/>
+	<CacheRoot>../../../../../Synpath_Wwise_230318/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{5B1D0028-ECBF-42C1-AAB2-4E95ED5D8989}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../../Synpath_Wwise_230318/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{DCE6E2DC-5CBD-43FF-A274-CBBAFC927B83}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{58BB80E9-6A06-CA9E-AF05-8ADDBD434F0F}</FileHash>
+</ProjectInfo>
