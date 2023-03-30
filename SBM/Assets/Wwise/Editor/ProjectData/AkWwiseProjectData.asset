@@ -331,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b75f8bce3b3cbe47b477ea8dafe2e186
     GuidInternal: 
-    m_lastTime: -8585219951871160821
+    m_lastTime: -8585213938111644395
     List:
     - name: Main
       guid: 53e4714105c2e54f8e4cb6bbe4ad4b6b
@@ -359,7 +359,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: f223dececfc9fb448af036b1788f9c9d
     GuidInternal: 
-    m_lastTime: -8585219723411458744
+    m_lastTime: -8585213938111714215
     List:
     - name: Play_Center_Island_Ambience
       guid: ee2b2fc6856cb2488f842c6915d72ef1
@@ -443,6 +443,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: d38298c068e19d4cb5a885778b6fbd41
       Path: Events\Default Work Unit\Play_NeuroPath_Growth
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Start_Neurotree_Growth
+      guid: 9c47c9c8c6dcd24d8765f4b386301f04
+      id: 2731735580
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f223dececfc9fb448af036b1788f9c9d
+      - ElementName: Play_Start_Neurotree_Growth
+        ObjectType: 3
+        guid: 9c47c9c8c6dcd24d8765f4b386301f04
+      Path: Events\Default Work Unit\Play_Start_Neurotree_Growth
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
