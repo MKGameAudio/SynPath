@@ -331,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b75f8bce3b3cbe47b477ea8dafe2e186
     GuidInternal: 
-    m_lastTime: -8585224081179355210
+    m_lastTime: -8585219951871160821
     List:
     - name: Main
       guid: 53e4714105c2e54f8e4cb6bbe4ad4b6b
@@ -359,7 +359,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: f223dececfc9fb448af036b1788f9c9d
     GuidInternal: 
-    m_lastTime: -8585224081179434967
+    m_lastTime: -8585219723411458744
     List:
     - name: Play_Center_Island_Ambience
       guid: ee2b2fc6856cb2488f842c6915d72ef1
@@ -409,6 +409,74 @@ MonoBehaviour:
         ObjectType: 3
         guid: 32f61d0d92300e4e857bb7a20abff7d5
       Path: Events\Default Work Unit\Play_Music_Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Neuropath_Ambient_230323
+      guid: 85104f97eed3b842ad3fb84534a6c59d
+      id: 3522001333
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f223dececfc9fb448af036b1788f9c9d
+      - ElementName: Play_Neuropath_Ambient_230323
+        ObjectType: 3
+        guid: 85104f97eed3b842ad3fb84534a6c59d
+      Path: Events\Default Work Unit\Play_Neuropath_Ambient_230323
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_NeuroPath_Growth
+      guid: d38298c068e19d4cb5a885778b6fbd41
+      id: 1835419944
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f223dececfc9fb448af036b1788f9c9d
+      - ElementName: Play_NeuroPath_Growth
+        ObjectType: 3
+        guid: d38298c068e19d4cb5a885778b6fbd41
+      Path: Events\Default Work Unit\Play_NeuroPath_Growth
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Main_Island_Ambience
+      guid: 0b40f73287d1b64bacc1667c28418d2b
+      id: 1339352996
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f223dececfc9fb448af036b1788f9c9d
+      - ElementName: Stop_Main_Island_Ambience
+        ObjectType: 3
+        guid: 0b40f73287d1b64bacc1667c28418d2b
+      Path: Events\Default Work Unit\Stop_Main_Island_Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Neuropath_Ambient_230323
+      guid: d78ef2bc5a697243a1591cc59944ba83
+      id: 731413091
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f223dececfc9fb448af036b1788f9c9d
+      - ElementName: Stop_Neuropath_Ambient_230323
+        ObjectType: 3
+        guid: d78ef2bc5a697243a1591cc59944ba83
+      Path: Events\Default Work Unit\Stop_Neuropath_Ambient_230323
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -605,7 +673,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: bcde13a809823e479d638ee60b62981b
     GuidInternal: 
-    m_lastTime: -8585224100792528079
+    m_lastTime: -8585219967406207402
     List:
     - name: Footsteps
       guid: 741268fb6c4ebe4ca78734e93f08f58d
@@ -654,6 +722,22 @@ MonoBehaviour:
         - ElementName: Grass
           ObjectType: 10
           guid: b887f4699e311f47b37874d00345866e
+      - name: Neuropath
+        guid: 3f8ff06f668c044784dcef047c459e33
+        id: 3850197799
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: bcde13a809823e479d638ee60b62981b
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 741268fb6c4ebe4ca78734e93f08f58d
+        - ElementName: Neuropath
+          ObjectType: 10
+          guid: 3f8ff06f668c044784dcef047c459e33
       - name: Wood
         guid: 558edc73185d7242a3484149b0dfa4d6
         id: 2058049674
@@ -688,7 +772,7 @@ MonoBehaviour:
     m_lastTime: -8585224448463294367
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c0000000d0000000e0000000f000000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
