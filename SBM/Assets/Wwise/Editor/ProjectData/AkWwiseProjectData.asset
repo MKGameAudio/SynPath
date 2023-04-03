@@ -331,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b75f8bce3b3cbe47b477ea8dafe2e186
     GuidInternal: 
-    m_lastTime: -8585213938111644395
+    m_lastTime: -8585211107397882920
     List:
     - name: Main
       guid: 53e4714105c2e54f8e4cb6bbe4ad4b6b
@@ -359,7 +359,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: f223dececfc9fb448af036b1788f9c9d
     GuidInternal: 
-    m_lastTime: -8585213938111714215
+    m_lastTime: -8585211107397803021
     List:
     - name: Play_Center_Island_Ambience
       guid: ee2b2fc6856cb2488f842c6915d72ef1
@@ -392,23 +392,6 @@ MonoBehaviour:
         ObjectType: 3
         guid: 36ac949c120ff943ab7d6b62024cf3b0
       Path: Events\Default Work Unit\Play_Footsteps
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_Music_Ambience
-      guid: 32f61d0d92300e4e857bb7a20abff7d5
-      id: 1659166974
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: f223dececfc9fb448af036b1788f9c9d
-      - ElementName: Play_Music_Ambience
-        ObjectType: 3
-        guid: 32f61d0d92300e4e857bb7a20abff7d5
-      Path: Events\Default Work Unit\Play_Music_Ambience
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -460,6 +443,40 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9c47c9c8c6dcd24d8765f4b386301f04
       Path: Events\Default Work Unit\Play_Start_Neurotree_Growth
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Synpath_Music
+      guid: a14d2badfac26745821f073259ba7ee1
+      id: 1632547285
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f223dececfc9fb448af036b1788f9c9d
+      - ElementName: Play_Synpath_Music
+        ObjectType: 3
+        guid: a14d2badfac26745821f073259ba7ee1
+      Path: Events\Default Work Unit\Play_Synpath_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Center_Island_Music
+      guid: b01ddf5c32419149aae99f8721046a32
+      id: 4189675377
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f223dececfc9fb448af036b1788f9c9d
+      - ElementName: Stop_Center_Island_Music
+        ObjectType: 3
+        guid: b01ddf5c32419149aae99f8721046a32
+      Path: Events\Default Work Unit\Stop_Center_Island_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -676,8 +693,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 0a08ce17e7decc4580da16d1f6c750c1
     GuidInternal: 
-    m_lastTime: -8585224448462715917
-    List: []
+    m_lastTime: -8585211241497288171
+    List:
+    - name: Region
+      guid: 72b5c35bed07444aabb5a9b043f17a41
+      id: 1374134669
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0a08ce17e7decc4580da16d1f6c750c1
+      - ElementName: Region
+        ObjectType: 9
+        guid: 72b5c35bed07444aabb5a9b043f17a41
+      Path: States\Default Work Unit\Region
+      values:
+      - name: Center_Island
+        guid: 767572b92036d240b3342ef18e204ea4
+        id: 3120282466
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0a08ce17e7decc4580da16d1f6c750c1
+        - ElementName: Region
+          ObjectType: 9
+          guid: 72b5c35bed07444aabb5a9b043f17a41
+        - ElementName: Center_Island
+          ObjectType: 8
+          guid: 767572b92036d240b3342ef18e204ea4
+      - name: Memory_Island
+        guid: 80cbd7766289384d8905cbe691abc814
+        id: 2189614052
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0a08ce17e7decc4580da16d1f6c750c1
+        - ElementName: Region
+          ObjectType: 9
+          guid: 72b5c35bed07444aabb5a9b043f17a41
+        - ElementName: Memory_Island
+          ObjectType: 8
+          guid: 80cbd7766289384d8905cbe691abc814
+      - name: None
+        guid: e58e4ada61cf954b9ad8b5aeb32e9066
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0a08ce17e7decc4580da16d1f6c750c1
+        - ElementName: Region
+          ObjectType: 9
+          guid: 72b5c35bed07444aabb5a9b043f17a41
+        - ElementName: None
+          ObjectType: 8
+          guid: e58e4ada61cf954b9ad8b5aeb32e9066
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -690,7 +773,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: bcde13a809823e479d638ee60b62981b
     GuidInternal: 
-    m_lastTime: -8585219967406207402
+    m_lastTime: -8585211241497368015
     List:
     - name: Footsteps
       guid: 741268fb6c4ebe4ca78734e93f08f58d
@@ -789,7 +872,7 @@ MonoBehaviour:
     m_lastTime: -8585224448463294367
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f000000140000001500000016000000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001500000016000000170000002700000033000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
