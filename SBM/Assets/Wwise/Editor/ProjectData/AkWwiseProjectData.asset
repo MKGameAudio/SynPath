@@ -526,8 +526,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 35c85d75a9aa074a8042c19ef75315e5
     GuidInternal: 
-    m_lastTime: -8585224448462147435
-    List: []
+    m_lastTime: -8585207876177810818
+    List:
+    - name: Distance_To_Tree
+      guid: 113eb372eb7f80418181bbbf686ff0e3
+      id: 1983773923
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 35c85d75a9aa074a8042c19ef75315e5
+      - ElementName: Distance_To_Tree
+        ObjectType: 13
+        guid: 113eb372eb7f80418181bbbf686ff0e3
+      Path: Game Parameters\Default Work Unit\Distance_To_Tree
   - PhysicalPath: Game Parameters\Factory Soundseed Air Game Syncs.wwu
     PathAndIcons:
     - ElementName: Game Parameters
@@ -872,7 +886,7 @@ MonoBehaviour:
     m_lastTime: -8585224448463294367
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001500000016000000170000002700000033000000
+  ExpandedWaapiItemIds: 1d0000001e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
