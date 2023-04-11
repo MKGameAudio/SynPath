@@ -21,6 +21,7 @@ public class InteractOnE : MonoBehaviour
         if (Input.GetKeyDown(interactKey))
         {
             interactAction.Invoke();
+            AkSoundEngine.PostEvent("Play_Painting", gameObject);
         }
     }
 
