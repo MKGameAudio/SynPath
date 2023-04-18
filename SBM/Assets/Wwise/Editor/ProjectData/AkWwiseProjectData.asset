@@ -331,11 +331,11 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b75f8bce3b3cbe47b477ea8dafe2e186
     GuidInternal: 
-    m_lastTime: -8585204205453416893
+    m_lastTime: -8585198176764757916
     List:
-    - name: Main
-      guid: 53e4714105c2e54f8e4cb6bbe4ad4b6b
-      id: 3161908922
+    - name: Scene_1
+      guid: b360148f2d069e46bf0df73f6f89cfa1
+      id: 692557015
       PathAndIcons:
       - ElementName: SoundBanks
         ObjectType: 5
@@ -343,10 +343,38 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: b75f8bce3b3cbe47b477ea8dafe2e186
-      - ElementName: Main
+      - ElementName: Scene_1
+        ObjectType: 7
+        guid: b360148f2d069e46bf0df73f6f89cfa1
+      Path: SoundBanks\Default Work Unit\Scene_1
+    - name: Scene_2
+      guid: 7408be3c6127314da5d67bcd7e437c84
+      id: 692557012
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b75f8bce3b3cbe47b477ea8dafe2e186
+      - ElementName: Scene_2
+        ObjectType: 7
+        guid: 7408be3c6127314da5d67bcd7e437c84
+      Path: SoundBanks\Default Work Unit\Scene_2
+    - name: Scene_3
+      guid: 53e4714105c2e54f8e4cb6bbe4ad4b6b
+      id: 692557013
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b75f8bce3b3cbe47b477ea8dafe2e186
+      - ElementName: Scene_3
         ObjectType: 7
         guid: 53e4714105c2e54f8e4cb6bbe4ad4b6b
-      Path: SoundBanks\Default Work Unit\Main
+      Path: SoundBanks\Default Work Unit\Scene_3
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -359,7 +387,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: f223dececfc9fb448af036b1788f9c9d
     GuidInternal: 
-    m_lastTime: -8585204212532508505
+    m_lastTime: -8585198178893941479
     List:
     - name: Play_Center_Island_Ambience
       guid: ee2b2fc6856cb2488f842c6915d72ef1
@@ -443,6 +471,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: a2c7c921c07bd84fb8cbf37f91c48dfd
       Path: Events\Default Work Unit\Play_Painting
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Scene_Reload
+      guid: b77fc64e2b2a754bb33ad562089b15ea
+      id: 3131132806
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f223dececfc9fb448af036b1788f9c9d
+      - ElementName: Play_Scene_Reload
+        ObjectType: 3
+        guid: b77fc64e2b2a754bb33ad562089b15ea
+      Path: Events\Default Work Unit\Play_Scene_Reload
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
