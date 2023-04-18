@@ -9,6 +9,7 @@ public class InteractOnE : MonoBehaviour
     public KeyCode interactKey;
     public UnityEvent interactAction;
     public UnityEvent interactAction01;
+    private bool alreadyPlayed = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +19,11 @@ public class InteractOnE : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(interactKey))
+        if (Input.GetKeyDown(interactKey) && !alreadyPlayed)
         {
             interactAction.Invoke();
             AkSoundEngine.PostEvent("Play_Painting", gameObject);
+            alreadyPlayed = true;
         }
     }
 
