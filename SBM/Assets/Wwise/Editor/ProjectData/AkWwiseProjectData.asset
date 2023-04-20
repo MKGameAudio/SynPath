@@ -331,39 +331,11 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b75f8bce3b3cbe47b477ea8dafe2e186
     GuidInternal: 
-    m_lastTime: -8585198160357900491
+    m_lastTime: -8585195974210167086
     List:
-    - name: Scene_1
-      guid: b360148f2d069e46bf0df73f6f89cfa1
-      id: 692557015
-      PathAndIcons:
-      - ElementName: SoundBanks
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: b75f8bce3b3cbe47b477ea8dafe2e186
-      - ElementName: Scene_1
-        ObjectType: 7
-        guid: b360148f2d069e46bf0df73f6f89cfa1
-      Path: SoundBanks\Default Work Unit\Scene_1
-    - name: Scene_2
-      guid: 7408be3c6127314da5d67bcd7e437c84
-      id: 692557012
-      PathAndIcons:
-      - ElementName: SoundBanks
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: b75f8bce3b3cbe47b477ea8dafe2e186
-      - ElementName: Scene_2
-        ObjectType: 7
-        guid: 7408be3c6127314da5d67bcd7e437c84
-      Path: SoundBanks\Default Work Unit\Scene_2
-    - name: Scene_3
+    - name: Main
       guid: 53e4714105c2e54f8e4cb6bbe4ad4b6b
-      id: 692557013
+      id: 3161908922
       PathAndIcons:
       - ElementName: SoundBanks
         ObjectType: 5
@@ -371,10 +343,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: b75f8bce3b3cbe47b477ea8dafe2e186
-      - ElementName: Scene_3
+      - ElementName: Main
         ObjectType: 7
         guid: 53e4714105c2e54f8e4cb6bbe4ad4b6b
-      Path: SoundBanks\Default Work Unit\Scene_3
+      Path: SoundBanks\Default Work Unit\Main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -387,7 +359,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: f223dececfc9fb448af036b1788f9c9d
     GuidInternal: 
-    m_lastTime: -8585198160801157263
+    m_lastTime: -8585195941642871110
     List:
     - name: Play_Center_Island_Ambience
       guid: ee2b2fc6856cb2488f842c6915d72ef1
@@ -522,40 +494,6 @@ MonoBehaviour:
         ObjectType: 3
         guid: a14d2badfac26745821f073259ba7ee1
       Path: Events\Default Work Unit\Play_Synpath_Music
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_Synpath_Music_Scene_1
-      guid: d76e3e7f8e6529479157d24cbcee2e60
-      id: 1729185460
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: f223dececfc9fb448af036b1788f9c9d
-      - ElementName: Play_Synpath_Music_Scene_1
-        ObjectType: 3
-        guid: d76e3e7f8e6529479157d24cbcee2e60
-      Path: Events\Default Work Unit\Play_Synpath_Music_Scene_1
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Stop_Center_Island_Music
-      guid: b01ddf5c32419149aae99f8721046a32
-      id: 4189675377
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: f223dececfc9fb448af036b1788f9c9d
-      - ElementName: Stop_Center_Island_Music
-        ObjectType: 3
-        guid: b01ddf5c32419149aae99f8721046a32
-      Path: Events\Default Work Unit\Stop_Center_Island_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -786,7 +724,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 0a08ce17e7decc4580da16d1f6c750c1
     GuidInternal: 
-    m_lastTime: -8585211241497288171
+    m_lastTime: -8585195974210226970
     List:
     - name: Region
       guid: 72b5c35bed07444aabb5a9b043f17a41
@@ -851,6 +789,88 @@ MonoBehaviour:
         - ElementName: None
           ObjectType: 8
           guid: e58e4ada61cf954b9ad8b5aeb32e9066
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Scene_Number
+      guid: 46a419ca125c774a8d60092c46a73a04
+      id: 2755766081
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0a08ce17e7decc4580da16d1f6c750c1
+      - ElementName: Scene_Number
+        ObjectType: 9
+        guid: 46a419ca125c774a8d60092c46a73a04
+      Path: States\Default Work Unit\Scene_Number
+      values:
+      - name: None
+        guid: 46e70c53bdae67479f1b5419767b28f7
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0a08ce17e7decc4580da16d1f6c750c1
+        - ElementName: Scene_Number
+          ObjectType: 9
+          guid: 46a419ca125c774a8d60092c46a73a04
+        - ElementName: None
+          ObjectType: 8
+          guid: 46e70c53bdae67479f1b5419767b28f7
+      - name: Scene_1
+        guid: a4d2e96288af9d40a77fb0b1f63b164f
+        id: 692557015
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0a08ce17e7decc4580da16d1f6c750c1
+        - ElementName: Scene_Number
+          ObjectType: 9
+          guid: 46a419ca125c774a8d60092c46a73a04
+        - ElementName: Scene_1
+          ObjectType: 8
+          guid: a4d2e96288af9d40a77fb0b1f63b164f
+      - name: Scene_2
+        guid: e44bd5b67f85e14ab51b4bfe251a14e5
+        id: 692557012
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0a08ce17e7decc4580da16d1f6c750c1
+        - ElementName: Scene_Number
+          ObjectType: 9
+          guid: 46a419ca125c774a8d60092c46a73a04
+        - ElementName: Scene_2
+          ObjectType: 8
+          guid: e44bd5b67f85e14ab51b4bfe251a14e5
+      - name: Scene_3
+        guid: 65b73b09d5761a4f923f6de51ce3af0b
+        id: 692557013
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0a08ce17e7decc4580da16d1f6c750c1
+        - ElementName: Scene_Number
+          ObjectType: 9
+          guid: 46a419ca125c774a8d60092c46a73a04
+        - ElementName: Scene_3
+          ObjectType: 8
+          guid: 65b73b09d5761a4f923f6de51ce3af0b
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -965,7 +985,7 @@ MonoBehaviour:
     m_lastTime: -8585224448463294367
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000005000000060000000700000015000000160000001700000018000000
+  ExpandedWaapiItemIds: 010000000500000006000000070000001100000012000000130000001400000015000000160000001700000018000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

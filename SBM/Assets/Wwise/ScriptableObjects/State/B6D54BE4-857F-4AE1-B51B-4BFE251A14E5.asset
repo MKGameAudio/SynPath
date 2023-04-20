@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6424f42df7b22741ad4189366f7608c, type: 3}
-  m_Name: 3CBE0874-2761-4D31-A5D6-7BCD7E437C84
+  m_Script: {fileID: 11500000, guid: ec20e89fb304a914793f7a2ac97ad12d, type: 3}
+  m_Name: B6D54BE4-857F-4AE1-B51B-4BFE251A14E5
   m_EditorClassIdentifier: 
   objectName: Scene_2
   id: 692557012
-  guid: 3CBE0874-2761-4D31-A5D6-7BCD7E437C84
+  guid: B6D54BE4-857F-4AE1-B51B-4BFE251A14E5
+  WwiseStateGroupReference: {fileID: 11400000, guid: f40f7f136f96d6549ad7bff9505cc067, type: 2}
