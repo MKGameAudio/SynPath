@@ -331,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b75f8bce3b3cbe47b477ea8dafe2e186
     GuidInternal: 
-    m_lastTime: -8585195974210167086
+    m_lastTime: -8585195807919278050
     List:
     - name: Main
       guid: 53e4714105c2e54f8e4cb6bbe4ad4b6b
@@ -359,7 +359,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: f223dececfc9fb448af036b1788f9c9d
     GuidInternal: 
-    m_lastTime: -8585195941642871110
+    m_lastTime: -8585195783005512908
     List:
     - name: Play_Center_Island_Ambience
       guid: ee2b2fc6856cb2488f842c6915d72ef1
@@ -481,7 +481,7 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Play_Synpath_Music
-      guid: a14d2badfac26745821f073259ba7ee1
+      guid: 93c2c5137676fc4b9407ab45e23ac647
       id: 1632547285
       PathAndIcons:
       - ElementName: Events
@@ -492,7 +492,7 @@ MonoBehaviour:
         guid: f223dececfc9fb448af036b1788f9c9d
       - ElementName: Play_Synpath_Music
         ObjectType: 3
-        guid: a14d2badfac26745821f073259ba7ee1
+        guid: 93c2c5137676fc4b9407ab45e23ac647
       Path: Events\Default Work Unit\Play_Synpath_Music
       maxAttenuation: 0
       maxDuration: -1
@@ -724,11 +724,11 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 0a08ce17e7decc4580da16d1f6c750c1
     GuidInternal: 
-    m_lastTime: -8585195974210226970
+    m_lastTime: -8585195784835353491
     List:
-    - name: Region
-      guid: 72b5c35bed07444aabb5a9b043f17a41
-      id: 1374134669
+    - name: Music_States
+      guid: 39f45a0546cc7d4381da847536e44bde
+      id: 1690668539
       PathAndIcons:
       - ElementName: States
         ObjectType: 5
@@ -736,14 +736,14 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 0a08ce17e7decc4580da16d1f6c750c1
-      - ElementName: Region
+      - ElementName: Music_States
         ObjectType: 9
-        guid: 72b5c35bed07444aabb5a9b043f17a41
-      Path: States\Default Work Unit\Region
+        guid: 39f45a0546cc7d4381da847536e44bde
+      Path: States\Default Work Unit\Music_States
       values:
-      - name: Center_Island
-        guid: 767572b92036d240b3342ef18e204ea4
-        id: 3120282466
+      - name: Center_Island_Scene_1
+        guid: 01a0453cc825e74187e77443ac1e4cb0
+        id: 3423942371
         PathAndIcons:
         - ElementName: States
           ObjectType: 5
@@ -751,15 +751,15 @@ MonoBehaviour:
         - ElementName: Default Work Unit
           ObjectType: 12
           guid: 0a08ce17e7decc4580da16d1f6c750c1
-        - ElementName: Region
+        - ElementName: Music_States
           ObjectType: 9
-          guid: 72b5c35bed07444aabb5a9b043f17a41
-        - ElementName: Center_Island
+          guid: 39f45a0546cc7d4381da847536e44bde
+        - ElementName: Center_Island_Scene_1
           ObjectType: 8
-          guid: 767572b92036d240b3342ef18e204ea4
-      - name: Memory_Island
-        guid: 80cbd7766289384d8905cbe691abc814
-        id: 2189614052
+          guid: 01a0453cc825e74187e77443ac1e4cb0
+      - name: Center_Island_Scene_2
+        guid: 7bab5b5941b2fc4187fa0b1ff92ceef9
+        id: 3423942368
         PathAndIcons:
         - ElementName: States
           ObjectType: 5
@@ -767,14 +767,78 @@ MonoBehaviour:
         - ElementName: Default Work Unit
           ObjectType: 12
           guid: 0a08ce17e7decc4580da16d1f6c750c1
-        - ElementName: Region
+        - ElementName: Music_States
           ObjectType: 9
-          guid: 72b5c35bed07444aabb5a9b043f17a41
-        - ElementName: Memory_Island
+          guid: 39f45a0546cc7d4381da847536e44bde
+        - ElementName: Center_Island_Scene_2
           ObjectType: 8
-          guid: 80cbd7766289384d8905cbe691abc814
+          guid: 7bab5b5941b2fc4187fa0b1ff92ceef9
+      - name: Center_Island_Scene_3
+        guid: 951f6b41f0d23d4ba94d243d87b96a20
+        id: 3423942369
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0a08ce17e7decc4580da16d1f6c750c1
+        - ElementName: Music_States
+          ObjectType: 9
+          guid: 39f45a0546cc7d4381da847536e44bde
+        - ElementName: Center_Island_Scene_3
+          ObjectType: 8
+          guid: 951f6b41f0d23d4ba94d243d87b96a20
+      - name: Memory_Island_Scene_1
+        guid: 2c0578f0a404ce478a4a06538714c66e
+        id: 4034511849
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0a08ce17e7decc4580da16d1f6c750c1
+        - ElementName: Music_States
+          ObjectType: 9
+          guid: 39f45a0546cc7d4381da847536e44bde
+        - ElementName: Memory_Island_Scene_1
+          ObjectType: 8
+          guid: 2c0578f0a404ce478a4a06538714c66e
+      - name: Memory_Island_Scene_2
+        guid: 72f7928115194b49825dd8738b8dc17c
+        id: 4034511850
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0a08ce17e7decc4580da16d1f6c750c1
+        - ElementName: Music_States
+          ObjectType: 9
+          guid: 39f45a0546cc7d4381da847536e44bde
+        - ElementName: Memory_Island_Scene_2
+          ObjectType: 8
+          guid: 72f7928115194b49825dd8738b8dc17c
+      - name: Memory_Island_Scene_3
+        guid: 26323b75841dfa40a8f96679faab1065
+        id: 4034511851
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0a08ce17e7decc4580da16d1f6c750c1
+        - ElementName: Music_States
+          ObjectType: 9
+          guid: 39f45a0546cc7d4381da847536e44bde
+        - ElementName: Memory_Island_Scene_3
+          ObjectType: 8
+          guid: 26323b75841dfa40a8f96679faab1065
       - name: None
-        guid: e58e4ada61cf954b9ad8b5aeb32e9066
+        guid: a63404d7af12c4428ed89ecc211c3959
         id: 748895195
         PathAndIcons:
         - ElementName: States
@@ -783,18 +847,18 @@ MonoBehaviour:
         - ElementName: Default Work Unit
           ObjectType: 12
           guid: 0a08ce17e7decc4580da16d1f6c750c1
-        - ElementName: Region
+        - ElementName: Music_States
           ObjectType: 9
-          guid: 72b5c35bed07444aabb5a9b043f17a41
+          guid: 39f45a0546cc7d4381da847536e44bde
         - ElementName: None
           ObjectType: 8
-          guid: e58e4ada61cf954b9ad8b5aeb32e9066
+          guid: a63404d7af12c4428ed89ecc211c3959
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
-    - name: Scene_Number
-      guid: 46a419ca125c774a8d60092c46a73a04
-      id: 2755766081
+    - name: SFX_States
+      guid: d3e7cc7c10734640bacf2832a2aa39ea
+      id: 356520899
       PathAndIcons:
       - ElementName: States
         ObjectType: 5
@@ -802,13 +866,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 0a08ce17e7decc4580da16d1f6c750c1
-      - ElementName: Scene_Number
+      - ElementName: SFX_States
         ObjectType: 9
-        guid: 46a419ca125c774a8d60092c46a73a04
-      Path: States\Default Work Unit\Scene_Number
+        guid: d3e7cc7c10734640bacf2832a2aa39ea
+      Path: States\Default Work Unit\SFX_States
       values:
       - name: None
-        guid: 46e70c53bdae67479f1b5419767b28f7
+        guid: ce1ec319ddc7104ca92e7febe7b24855
         id: 748895195
         PathAndIcons:
         - ElementName: States
@@ -817,14 +881,14 @@ MonoBehaviour:
         - ElementName: Default Work Unit
           ObjectType: 12
           guid: 0a08ce17e7decc4580da16d1f6c750c1
-        - ElementName: Scene_Number
+        - ElementName: SFX_States
           ObjectType: 9
-          guid: 46a419ca125c774a8d60092c46a73a04
+          guid: d3e7cc7c10734640bacf2832a2aa39ea
         - ElementName: None
           ObjectType: 8
-          guid: 46e70c53bdae67479f1b5419767b28f7
+          guid: ce1ec319ddc7104ca92e7febe7b24855
       - name: Scene_1
-        guid: a4d2e96288af9d40a77fb0b1f63b164f
+        guid: a934254503c9a245a047028088d302ab
         id: 692557015
         PathAndIcons:
         - ElementName: States
@@ -833,14 +897,14 @@ MonoBehaviour:
         - ElementName: Default Work Unit
           ObjectType: 12
           guid: 0a08ce17e7decc4580da16d1f6c750c1
-        - ElementName: Scene_Number
+        - ElementName: SFX_States
           ObjectType: 9
-          guid: 46a419ca125c774a8d60092c46a73a04
+          guid: d3e7cc7c10734640bacf2832a2aa39ea
         - ElementName: Scene_1
           ObjectType: 8
-          guid: a4d2e96288af9d40a77fb0b1f63b164f
+          guid: a934254503c9a245a047028088d302ab
       - name: Scene_2
-        guid: e44bd5b67f85e14ab51b4bfe251a14e5
+        guid: e0e3dfa13951bb4d9742180f7db4b4eb
         id: 692557012
         PathAndIcons:
         - ElementName: States
@@ -849,14 +913,14 @@ MonoBehaviour:
         - ElementName: Default Work Unit
           ObjectType: 12
           guid: 0a08ce17e7decc4580da16d1f6c750c1
-        - ElementName: Scene_Number
+        - ElementName: SFX_States
           ObjectType: 9
-          guid: 46a419ca125c774a8d60092c46a73a04
+          guid: d3e7cc7c10734640bacf2832a2aa39ea
         - ElementName: Scene_2
           ObjectType: 8
-          guid: e44bd5b67f85e14ab51b4bfe251a14e5
+          guid: e0e3dfa13951bb4d9742180f7db4b4eb
       - name: Scene_3
-        guid: 65b73b09d5761a4f923f6de51ce3af0b
+        guid: 70de2d65f540a345a91195ef943fd3c5
         id: 692557013
         PathAndIcons:
         - ElementName: States
@@ -865,12 +929,12 @@ MonoBehaviour:
         - ElementName: Default Work Unit
           ObjectType: 12
           guid: 0a08ce17e7decc4580da16d1f6c750c1
-        - ElementName: Scene_Number
+        - ElementName: SFX_States
           ObjectType: 9
-          guid: 46a419ca125c774a8d60092c46a73a04
+          guid: d3e7cc7c10734640bacf2832a2aa39ea
         - ElementName: Scene_3
           ObjectType: 8
-          guid: 65b73b09d5761a4f923f6de51ce3af0b
+          guid: 70de2d65f540a345a91195ef943fd3c5
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -985,7 +1049,7 @@ MonoBehaviour:
     m_lastTime: -8585224448463294367
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000001100000012000000130000001400000015000000160000001700000018000000
+  ExpandedWaapiItemIds: 01000000050000000600000007000000110000001200000013000000140000001500000016000000170000001800000039000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
