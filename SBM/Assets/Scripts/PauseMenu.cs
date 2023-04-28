@@ -34,6 +34,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         isPaused = true;
         Cursor.lockState = CursorLockMode.None;
+        AkSoundEngine.Suspend();
     }
 
     public void ResumeGame()
@@ -42,6 +43,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         isPaused = false;
         Cursor.lockState = CursorLockMode.Locked;
+        AkSoundEngine.WakeupFromSuspend();
     }
     public void QuitGame()
     {
