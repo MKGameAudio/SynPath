@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
-   
+
     [Header("References")]
     public Rigidbody rb;
     public Transform head;
@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour {
     Vector3 newVelocity;
     bool isGrounded = false;
     bool isJumping = false;
-    
+
     [Header("Wwise Events")]
     public AK.Wwise.Event myFootstep;
 
@@ -32,8 +32,8 @@ public class PlayerController : MonoBehaviour {
 
     // Start is called before the first frame update
     // set cursor to not be visible
-    // set lockState 
-    
+    // set lockState
+
     void Start() {
         //  Hide and lock the mouse cursor
         Cursor.visible = false;
@@ -53,12 +53,12 @@ public class PlayerController : MonoBehaviour {
         // changing the velocity and assigning the new velocity to variable newVelocity
         newVelocity = Vector3.up * rb.velocity.y;
         // If the player presses shift to sprint, set speed to running, else set speed to walking
-        float speed = Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed;
+        float speed = walkSpeed;
         // horizontal velocity is the speed we decided above (variable speed)
         newVelocity.x = Input.GetAxis("Horizontal") * speed;
         // vertical velocity is the speed we decided above (variable speed)
         newVelocity.z = Input.GetAxis("Vertical") * speed;
-        
+
         // if the player is on the ground
         if (isGrounded) {
             if (Input.GetKeyDown(KeyCode.Space) && !isJumping) {
@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour {
 
             else
 
-            { 
+            {
                 isJumping = false;
             }
         }
@@ -76,7 +76,7 @@ public class PlayerController : MonoBehaviour {
         playFootstepsAudio();
 
     }
-    //the function that I MATTHEW KASE inserted, not used anywhere in the script right now. 
+    //the function that I MATTHEW KASE inserted, not used anywhere in the script right now.
     private void playFootstepsAudio()
     {
         float playerSpeedX = rb.velocity.x;
@@ -90,7 +90,7 @@ public class PlayerController : MonoBehaviour {
                 lastFootstepTime = Time.time;
                 audioIsPlaying = true;
             }
-            
+
             else
 
             {
