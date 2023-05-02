@@ -331,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b75f8bce3b3cbe47b477ea8dafe2e186
     GuidInternal: 
-    m_lastTime: -8585195807919278050
+    m_lastTime: -8585185571470359020
     List:
     - name: Main
       guid: 53e4714105c2e54f8e4cb6bbe4ad4b6b
@@ -359,7 +359,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: f223dececfc9fb448af036b1788f9c9d
     GuidInternal: 
-    m_lastTime: -8585195783005512908
+    m_lastTime: -8585185544473284683
     List:
     - name: Play_Center_Island_Ambience
       guid: ee2b2fc6856cb2488f842c6915d72ef1
@@ -375,6 +375,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: ee2b2fc6856cb2488f842c6915d72ef1
       Path: Events\Default Work Unit\Play_Center_Island_Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Ending
+      guid: c6b2cf1da4a4ab4b8844d7d5f3ba69c1
+      id: 2546948647
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f223dececfc9fb448af036b1788f9c9d
+      - ElementName: Play_Ending
+        ObjectType: 3
+        guid: c6b2cf1da4a4ab4b8844d7d5f3ba69c1
+      Path: Events\Default Work Unit\Play_Ending
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -528,6 +545,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: d78ef2bc5a697243a1591cc59944ba83
       Path: Events\Default Work Unit\Stop_Neuropath_Ambient_230323
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Synpath_Music
+      guid: 02b4ed86c968d0478275bc4d4c3b277f
+      id: 3856077459
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f223dececfc9fb448af036b1788f9c9d
+      - ElementName: Stop_Synpath_Music
+        ObjectType: 3
+        guid: 02b4ed86c968d0478275bc4d4c3b277f
+      Path: Events\Default Work Unit\Stop_Synpath_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1046,8 +1080,22 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 95699f053eba9141b7f2cec685b5771a
     GuidInternal: 
-    m_lastTime: -8585224448463294367
-    List: []
+    m_lastTime: -8585185592605508808
+    List:
+    - name: Ending_Credits
+      guid: 571552e9a3853541b27f955f3e781368
+      id: 2173523475
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 95699f053eba9141b7f2cec685b5771a
+      - ElementName: Ending_Credits
+        ObjectType: 14
+        guid: 571552e9a3853541b27f955f3e781368
+      Path: Triggers\Default Work Unit\Ending_Credits
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 01000000050000000600000007000000110000001200000013000000140000001500000016000000170000001800000039000000
   AutoSyncSelection: 0
